@@ -1,0 +1,110 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: linear-gradient(to bottom, #000000, #333333);
+}
+
+.body-container{
+    display: flex;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.-navbar{
+    color: #0e295f;
+}
+
+.body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.a-navbar{
+    color: #ffff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.a-navbar:hover {
+    color: red;
+    transition: all .5s ease 0s;
+    transform: rotate(2deg);
+}
+
+.navbar{
+    justify-content: center;
+    align-items: center ;
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+    list-style-type: none;
+}
+
+.li-navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-body{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-body{
+    list-style-type: none;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 150%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.footer-container{
+    color: #fff;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.p-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}

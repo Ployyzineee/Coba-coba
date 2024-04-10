@@ -1,0 +1,99 @@
+/* CSS untuk tampilan unik */
+
+/* Body */
+*,
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #222;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .ul-navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .li-navbar {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .a-navbar {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .hr {
+    border: none;
+    height: 1px;
+    background-color: #fff;
+    margin: 20px 0;
+  }
+  
+  /* Body */
+  .body-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .body {
+    flex: 1 1 60%;
+  }
+  
+  .ul-body {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .li-body {
+    margin-bottom: 10px;
+  }
+  
+  .body1 {
+    flex: 1 1 30%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .img-body {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  .footer-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .footer-container p {
+    margin: 0;
+  }
